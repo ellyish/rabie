@@ -1,0 +1,305 @@
+/*
+Theme Name: The HTML5 Boilerplate
+Theme URI: http://github.com/zencoder/html5-boilerplate-for-wordpress
+Description: Based on the <a href="http://html5boilerplate.com">HTML5 Boilerplate</a> and Bruce Lawson's <a href="http://html5doctor.com/designing-a-blog-with-html5/">Designing a Blog with HTML5</a>. The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. See the README for instructions. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
+Version: 1.0
+Author: Steve Heffernan
+Author URI: http://steveheffernan.com/
+Tags: white, two-columns
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+
+/*
+HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
+*/
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* WordPress Required Styles */
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+.sticky {
+	background: #f7f7f7;
+	padding: 0 10px 10px;
+}
+	
+.sticky h2 {
+	padding-top: 10px;
+}
+
+body {
+	background-image:url('images/bg.jpg');
+	background-repeat:repeat-x;
+	background-position:center top;
+
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+/*top bar*/
+
+.topbar {
+
+	height: 35px;
+	background-color: #9fd3cf;
+	overflow: hidden;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	z-index: 99999;
+	min-width: 1220px;
+
+}
+
+.language {
+	font-family: tahoma;
+	font-size: 15px;
+	margin-top: 9px;
+
+	position: relative;
+	width: 800px;
+	left: 18.4%;
+	min-width: 1024px;
+}
+
+
+
+
+/*header*/
+
+#container {
+	position: relative;
+	width: 800px;
+	padding-left: 18.5%;
+	text-align: justify;
+}
+
+.head {
+
+	padding-top: 25px;
+	padding-bottom: 100px;
+
+}
+
+.logo {
+
+	background-image: url("images/logo.png");
+	float: left;
+	width: 174px;
+	height: 53px;
+}
+
+.access {
+	float: right;
+
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:35px;
+	padding:0;
+
+
+}
+
+
+li
+{
+	display:inline;
+	margin-left: 12px;
+}
+
+li > a  {
+	font-family: monospace;
+	font-size: 18px;
+	text-decoration: none;
+	color: #97A1A8;
+
+}
+
+li > a:visited {
+	color: #97A1A8;
+}
+
+
+li > a:hover {
+
+	color: #6dc2bd;
+}
+
+
+
+/*pages*/
+
+#main {
+
+}
+
+
+.gallery-item {
+
+	padding-left: 5px;
+}
+
+/*footer*/
+
+footer {
+
+	margin-top: 50px;
+	width: 100%;
+	height:200px;
+	background-color: #0f72b5;
+
+}
+
+.footer {
+	position: relative;
+	width: 800px;
+	padding-left: 18.5%;
+		min-width: 1024px;
+
+}
+
